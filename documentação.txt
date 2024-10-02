@@ -1,0 +1,7 @@
+criei o diretório e completei a instalação.
+Fiz o uso do Dockerfile recomendado.
+Rodei sudo docker build -t atividadeimg:v1 . para criar
+Rodei sudo docker run -it -d --name atividadeimg bash
+Rodei sudo docker ps -l e sudo docker images 
+Rodei sudo docker run -it -p 8080:8080 atividadeimg:v1 para rodar
+Abri o localhost no navegador e verifiquei se estava rodando na porta 8080
